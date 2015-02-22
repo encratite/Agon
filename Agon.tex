@@ -1,10 +1,10 @@
-\documentclass{article}
+\RequirePackage{lineno}
 
-\usepackage{alltt}
+\documentclass{article}
 
 \newcommand\void{\textsc{Void}}
 
-\newenvironment{stanza}{\begin{minipage}{10cm}\obeylines}{\end{minipage}\vspace{\baselineskip}}
+\newenvironment{stanza}{\begin{minipage}{10cm}\begin{internallinenumbers}\obeylines}{\end{internallinenumbers}\end{minipage}\vspace{\baselineskip}}
 
 \title{Agon}
 
@@ -329,8 +329,8 @@ Against all of life, all of death.
 \end{stanza}
 
 \begin{stanza}
-Where life withdraws, death and rot
-Move in and try to take its place
+Where life withers and withdraws
+Death moves in and takes its place
 In a cryptic universe
 That no-one in his senses
 Would ever trust or affirm.
